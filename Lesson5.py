@@ -47,13 +47,13 @@ class Tester(Employee):
     def get_language(self):
         return self.language
 
-dev1 = Developer("Dmitriy", "Konovalov", "C#")
-print(dev1.name)
-print(dev1.surname)
-print(dev1.def_country)
-print(dev1.def_sity)
-print(dev1.work())
-print(dev1.get_language())
+# dev1 = Developer("Dmitriy", "Konovalov", "C#")
+# print(dev1.name)
+# print(dev1.surname)
+# print(dev1.def_country)
+# print(dev1.def_sity)
+# print(dev1.work())
+# print(dev1.get_language())
 
 tester1 = Tester("Alex", "Tomelo", "Pythom", "TestNG")
 print(tester1.name)
