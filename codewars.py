@@ -120,7 +120,5 @@ def ascend_descend(length, minimum, maximum):
         i += 1
 
     return str_out
-# не решена
-# эксперименты с git-ом
 
 print(ascend_descend(10, 9, 12))
