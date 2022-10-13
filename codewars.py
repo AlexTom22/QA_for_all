@@ -121,4 +121,5 @@ def ascend_descend(length, minimum, maximum):
 
     return str_out
 
+
 print(ascend_descend(10, 9, 12))
